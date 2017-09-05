@@ -1,13 +1,9 @@
 Regex 0:
 
-[a-zA-Z]\w+
+([A-Z]\w*), (\w*)/g
 
-Regex 1:
-//in progress, needs negative lookbehind for sandwich type, however it's not supported in JS.
+Regex 
 
-[A-Z]\w+(?=\.)
+([A-Z]\w*)\W My favorite sandwich is (\w*)/g
 
-Regex 2:
-
-
-
+Regex 2
