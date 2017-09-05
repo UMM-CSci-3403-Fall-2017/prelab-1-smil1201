@@ -1,0 +1,13 @@
+Regex 0:
+
+[a-zA-Z]\w+
+
+Regex 1:
+//in progress, needs negative lookbehind for sandwich type, however it's not supported in JS.
+
+[A-Z]\w+(?=\.)
+
+Regex 2:
+
+
+
