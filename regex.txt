@@ -1,9 +1,11 @@
 Regex 0:
 
-([A-Z]\w*), (\w*)/g
+([A-Z]\w+), (\w+)/g
 
-Regex 
+Regex 1: 
 
-([A-Z]\w*)\W My favorite sandwich is (\w*)/g
+([A-Z]\w+)\W My favorite sandwich is (\w+)/g
 
-Regex 2
+Regex 2:
+
+sandwich with (\S+)\s(\w+\s\w+)/g
